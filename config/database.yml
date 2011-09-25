@@ -1,0 +1,23 @@
+development:
+  adapter: postgresql
+  encoding: utf8
+  reconnect: false
+  database: api_development
+  pool: 5
+  username: rails
+  password: railspass
+
+test:
+  adapter: postgresql
+  encoding: utf8
+  reconnect: false
+  database: api_test
+  pool: 5
+  username: rails
+  password: railspass
+
+production:
+  adapter: sqlite3
+  database: db/production.sqlite3
+  pool: 5
+  timeout: 5000
